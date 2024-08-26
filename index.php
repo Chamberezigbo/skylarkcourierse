@@ -25,7 +25,7 @@ require 'header.php';
                             <img src="images/search-icon.png" alt="">
                           </div>
 
-                          <button>
+                          <button  type="submit" name="track">
                             Search
                           </button>
                         </form>
@@ -66,7 +66,7 @@ require 'header.php';
                             <img src="images/search-icon.png" alt="">
                           </div>
 
-                          <button>
+                          <button  type="submit" name="track">
                             Search
                           </button>
                         </form>

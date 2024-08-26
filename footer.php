@@ -119,6 +119,31 @@
   </section>
   <!-- footer section -->
 
+  <script>
+     <?php
+     if (isset($success) && isset($msg)) {
+          if ($success && !empty($msg)) {
+     ?>
+               swal({
+                    title: "Oops!",
+                    text: "<?php echo $msg; ?>",
+                    type: "error",
+                    confirmButtonText: "Cool"
+               });
+          <?php
+          } elseif (!$success && !empty($msg)) { ?>
+               swal({
+                    title: "Oops!",
+                    text: "<?php echo $msg; ?>",
+                    type: "error",
+                    confirmButtonText: "Cool"
+               });
+     <?php
+          }
+     }
+     ?>
+</script>
+
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
 

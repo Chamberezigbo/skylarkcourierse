@@ -3,7 +3,7 @@
 $dbHost = "localhost";
 $dbUser = "root";
 $dbPass = "";
-$dbName = "logisticsv22";
+$dbName = "logisticsv1";
 
 // $dbHost = "localhost";
 // $dbUser = "webshipp_package";
