@@ -37,7 +37,6 @@ if (isset($_SESSION['success']) && isset($_SESSION['msg'])) {
   <meta name="author" content="" />
 
   <title><?= $companyName ?></title>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRVkBVIza6LFm1TGNgMlN5FRdVXVERjnc&callback=initMap" async defer></script>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"
